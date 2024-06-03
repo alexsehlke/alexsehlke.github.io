@@ -27,7 +27,8 @@ url: "https://www.planetsehlke.rocks" # the base hostname & protocol for your si
 # Build settings
 # theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.26.1
-plugins: jekyll-include-cache
+plugins: 
+   - jekyll-include-cache
 #  - jekyll-feed
 
 # Exclude from processing.
