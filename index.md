@@ -2,7 +2,7 @@
 layout: home
 ---
 
-![volcano image](static/introphoto.png)
+![Preparing thermoluminescence measurements in the lab](static/sehlke_TL_Lab.png)
 
 **Welcome to my page. I am a researcher in planetary geology, studying the dynamic processes of otherworldly landscapes to support the scientific exploration of our solar system.**
 

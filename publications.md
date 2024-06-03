@@ -2,22 +2,22 @@
 title: Publications
 ---
 
-Major publications given below. See also my [Google Scholar](https://scholar.google.com/citations?user=aR1eUfAAAAAJ&hl=en) author page for additional information.
-
+Peer-reviewed publications are listed below. See also my [Google Scholar](https://scholar.google.com/citations?user=aR1eUfAAAAAJ&hl=en) author page for additional information.
 
 
 <!--* Table of Contents
 {:toc}-->
 
-## [2023]
+## [2024]
 
-**[27]** **Sehlke, A.**, Sears, D.W.G, and the ANGSA Science Team (2023) The
-Apollo 17 Regolith: Induced Thermoluminescence Evidence for
-Formation by a Single Event ~100 Million Years Ago and Possibly the
-Presence of Tycho Material. JGR Planets ANGSA special Issue, in review
+**[30] Sehlke A.**, Sears DWG, & the ANGSA Science Team. (2024). Cold Trap Prospecting on the Moon: Theory and Insights from Low Temperature Thermoluminescence of Lunar Regolith. *Icarus. In review.*
 
-Preprint: https://authorea.com/users/547014/articles/670748-the-apollo-17-regolith-induced-thermoluminescence-evidence-for-formation-by-a-single-event-100-million-years-ago-and-possibly-the-presence-of-tycho-material
+**[29]** Sears DWG., **Sehlke A**, Schmitt HH, & the ANGSA Science Team. (2024). Thermoluminescence and Apollo 17 ANGSA lunar samples: NASA’s fifty-year experiment and prospecting for cold traps. *Journal of Geophysical Research: Planets, 129.* In review. Authorea Preprints. https://doi.org/10.22541/AU.170967885.52170034/V1
 
+**[28]** Morlok A, **Sehlke A**, Stojic AN, Whittington A, Weber I, Reitze MP, Hiesinger H, & Helbert J. (2024). Synthetic analogs for lava flows on the surface of Mercury: A mid-infrared study. *Icarus*, 415, 116078. https://doi.org/10.1016/J.ICARUS.2024.116078
+
+
+**[27] Sehlke A.**, Sears DWG, & the ANGSA Science Team. (2024). The Apollo 17 Regolith: Induced Thermoluminescence Evidence for Formation by a Single Event ∼100 Million Years Ago and Possibly the Presence of Tycho Material. *Journal of Geophysical Research: Planets*, 129(4), e2023JE008083. https://doi.org/10.1029/2023JE008083
 
 
 ## [2022]
