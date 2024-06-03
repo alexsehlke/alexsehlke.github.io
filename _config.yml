@@ -20,12 +20,13 @@
 
 title: Planet Sehlke
 email: alexander.sehlke@nasa.gov
-description:
+description: Personal website of Alexander Sehlke
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.planetsehlke.rocks" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.26.1
 plugins: jekyll-include-cache
 #  - jekyll-feed
 
