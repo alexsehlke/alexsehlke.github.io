@@ -18,17 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Planet Sehlke
+title: PlanetSehlke
 email: alexander.sehlke@nasa.gov
-description: Personal website of Alexander Sehlke
+description:
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.planetsehlke.rocks" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-# theme: minima
-remote_theme: "mmistakes/minimal-mistakes@4.26.1
-plugins: 
-   - jekyll-include-cache
+theme: minima
+#plugins:
 #  - jekyll-feed
 
 # Exclude from processing.
