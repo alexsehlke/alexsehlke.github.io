@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lone Star - Star Battle Logic Puzzles</title>
-    <meta name="description" content="Master the art of star placement in this elegant logic puzzle game. 500+ puzzles, daily challenges, constellation map, and challenge mode.">
+    <meta name="description" content="A beautifully crafted star-placement puzzle game. 2,500 puzzles, constellation sky map, daily challenges, and challenge mode.">
     <meta name="theme-color" content="#0a1628">
     <link rel="icon" type="image/png" href="icon-512.png">
 
     <!-- Open Graph -->
     <meta property="og:title" content="Lone Star - Star Battle Logic Puzzles">
-    <meta property="og:description" content="Place stars on the grid using pure logic. 500+ puzzles across 5 difficulty levels.">
-    <meta property="og:image" content="banner.png">
+    <meta property="og:description" content="Place stars on the grid using pure logic. 2,500 puzzles across 5 difficulty levels. Every star has a place. Every constellation has a story.">
+    <meta property="og:image" content="icon-512.png">
     <meta property="og:type" content="website">
 
     <style>
@@ -51,7 +51,7 @@
         /* Hero */
         .hero {
             text-align: center;
-            padding: 80px 20px 60px;
+            padding: 80px 20px 40px;
             max-width: 800px;
             margin: 0 auto;
         }
@@ -68,14 +68,27 @@
             font-size: 48px;
             font-weight: 700;
             letter-spacing: -1px;
-            margin-bottom: 8px;
+            margin-bottom: 12px;
+        }
+
+        .hero .tagline {
+            font-size: 18px;
+            color: #8b9dc3;
+            font-weight: 400;
+            line-height: 1.6;
+            margin-bottom: 12px;
+            font-style: italic;
         }
 
         .hero .subtitle {
-            font-size: 20px;
+            font-size: 16px;
             color: #8b9dc3;
-            font-weight: 500;
+            font-weight: 400;
+            line-height: 1.7;
             margin-bottom: 32px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .store-badges {
@@ -175,6 +188,69 @@
             color: #8b9dc3;
         }
 
+        /* Difficulty section */
+        .difficulties {
+            padding: 20px 20px 60px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .difficulties h2 {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 32px;
+        }
+
+        .diff-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .diff-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 20px;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .diff-size {
+            font-size: 22px;
+            font-weight: 700;
+            color: #e8eaf0;
+            min-width: 50px;
+        }
+
+        .diff-info h4 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .diff-info p {
+            font-size: 13px;
+            color: #8b9dc3;
+        }
+
+        /* Closing */
+        .closing {
+            text-align: center;
+            padding: 40px 20px 60px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .closing p {
+            font-size: 18px;
+            color: #8b9dc3;
+            line-height: 1.7;
+            font-style: italic;
+        }
+
         /* Footer */
         footer {
             text-align: center;
@@ -201,11 +277,12 @@
 
         /* Responsive */
         @media (max-width: 600px) {
-            .hero { padding: 60px 20px 40px; }
+            .hero { padding: 60px 20px 30px; }
             .hero h1 { font-size: 36px; }
-            .hero .subtitle { font-size: 17px; }
+            .hero .tagline { font-size: 16px; }
+            .hero .subtitle { font-size: 15px; }
             .screenshot-scroll img { height: 360px; }
-            .features h2 { font-size: 26px; }
+            .features h2, .difficulties h2 { font-size: 26px; }
         }
     </style>
 </head>
@@ -213,7 +290,8 @@
     <header class="hero">
         <img src="icon-512.png" alt="Lone Star app icon" class="hero-icon">
         <h1>Lone Star</h1>
-        <p class="subtitle">Place Stars, Solve the Grid</p>
+        <p class="tagline">Somewhere in the night sky, the stars have scattered. Each one sits alone in its region, waiting to be found. Your mission: reunite them all.</p>
+        <p class="subtitle">A beautifully crafted star-placement puzzle game inspired by the classic Star Battle logic genre. Place stars on the grid so that every row, column, and region contains exactly the right number &mdash; but no two stars may touch, not even diagonally. Simple to learn, deeply satisfying to master.</p>
         <div class="store-badges">
             <a href="https://apps.apple.com/app/star-battle-logic-puzzles/id6744107519" class="store-badge">
                 <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
@@ -236,39 +314,86 @@
     </section>
 
     <section class="features">
-        <h2>Why You'll Love It</h2>
+        <h2>A Sky Full of Stories</h2>
         <div class="feature-grid">
-            <div class="feature-card">
-                <div class="icon">&#11088;</div>
-                <h3>500+ Puzzles</h3>
-                <p>Five difficulty tiers from Beginner to Expert. Every puzzle has exactly one solution — pure logic, no guessing.</p>
-            </div>
-            <div class="feature-card">
-                <div class="icon">&#128197;</div>
-                <h3>Daily Challenges</h3>
-                <p>Three fresh puzzles every day across Beginner, Pro, and Expert tiers. Build your streak and compete on leaderboards.</p>
-            </div>
             <div class="feature-card">
                 <div class="icon">&#127776;</div>
                 <h3>Constellation Map</h3>
-                <p>Explore 87 real constellations on an interactive sky map. Each star is a puzzle waiting to be solved.</p>
+                <p>Every puzzle you solve lights up a star. Watch as scattered points of light connect into the shapes of 87 real constellations &mdash; Orion, Cassiopeia, Ursa Major, and more.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#128197;</div>
+                <h3>Three Daily Challenges</h3>
+                <p>Come back every day for fresh puzzles. Track your streak and compete on Game Center leaderboards for the fastest solve times.</p>
             </div>
             <div class="feature-card">
                 <div class="icon">&#9876;</div>
                 <h3>Challenge Mode</h3>
-                <p>Race against a virtual opponent across three difficulty levels. Battle Rush through 6x6 to 10x10 in sequence.</p>
-            </div>
-            <div class="feature-card">
-                <div class="icon">&#127912;</div>
-                <h3>Beautiful Design</h3>
-                <p>Neumorphic interface with multiple color themes, smooth animations, haptic feedback, and sound effects.</p>
+                <p>Play against opponents in three difficulty levels. In the special Battle Rush mode, race through six puzzles in a row!</p>
             </div>
             <div class="feature-card">
                 <div class="icon">&#128161;</div>
                 <h3>Smart Hints</h3>
-                <p>Stuck? Get a nudge in the right direction. Real-time error highlighting shows mistakes instantly.</p>
+                <p>Intelligent hint system when you need a gentle nudge. Undo, auto-save, and pick up right where you left off.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#128202;</div>
+                <h3>Detailed Statistics</h3>
+                <p>Track your times, streaks, and completion across all difficulties. No internet required &mdash; all puzzles included, play anywhere.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">&#11088;</div>
+                <h3>2,500 Puzzles</h3>
+                <p>Five difficulty tiers from Beginner to Expert. Every puzzle has exactly one solution &mdash; pure logic, no guessing.</p>
             </div>
         </div>
+    </section>
+
+    <section class="difficulties">
+        <h2>Five Difficulty Levels</h2>
+        <div class="diff-list">
+            <div class="diff-item">
+                <span class="diff-size">6&times;6</span>
+                <div class="diff-info">
+                    <h4>Beginner</h4>
+                    <p>Learn the ropes with compact grids</p>
+                </div>
+            </div>
+            <div class="diff-item">
+                <span class="diff-size">7&times;7</span>
+                <div class="diff-info">
+                    <h4>Easy</h4>
+                    <p>Build confidence with a bit more room</p>
+                </div>
+            </div>
+            <div class="diff-item">
+                <span class="diff-size">8&times;8</span>
+                <div class="diff-info">
+                    <h4>Medium</h4>
+                    <p>A satisfying challenge for steady solvers</p>
+                </div>
+            </div>
+            <div class="diff-item">
+                <span class="diff-size">9&times;9</span>
+                <div class="diff-info">
+                    <h4>Hard</h4>
+                    <p>Push your logic to the limit</p>
+                </div>
+            </div>
+            <div class="diff-item">
+                <span class="diff-size">10&times;10</span>
+                <div class="diff-info">
+                    <h4>Expert</h4>
+                    <p>Only the sharpest minds prevail</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="closing">
+        <p>Whether you have five minutes or an hour, Lone Star offers the perfect balance of calm focus and logical challenge.</p>
+        <br>
+        <p>Every star has a place. Every constellation has a story. Find them all.</p>
     </section>
 
     <footer>
